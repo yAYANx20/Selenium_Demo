@@ -1,1 +1,45 @@
-Welcome to selenium demo project
+1. Go to Eclipse Project and Right click and open Git Bash
+git init - to create empty repository
+
+git remote add origin "https://github.com/yAYANx20/RestAPI_Automation_Framework_New.git"
+
+git status
+
+git add -A ( this to add all file in remote repository
+
+Before doing commit, first time you need to execute these below command
+git config --global user.name "yAYANx20"
+git config --global user.email "ayanakash936@gmail.com"
+
+now run commit command
+
+git commit -m "Adding new project" ( this will commit to local repository)
+
+git push -u origin master ( this will send all command from git(local) to github(remote))
+
+it will pop-up for username and password to check-in
+
+Go to Github and you can see all file updated there ( You need to refresh)
+--------------------------------------------------------------------------------------
+
+
+-----------First Always run this command
+git pull origin master ( this will pull the new file from GitHub)
+
+--------Then Run this command
+Go to git bash and run below command
+git status
+
+You will see the file which you have added in your local projet
+
+Then Run the below command to add the newly added file to git local
+
+git add -A
+
+then execute command to commit
+git commit -m "add comments as well"
+
+then push to github 
+
+git push -u origin master
+
